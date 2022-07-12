@@ -1,0 +1,81 @@
+/* CSS All Selector for box sizing and making it so the entire page can work on multiple screen sizes */
+
+* {
+    box-sizing: border-box;
+    @media (max-width: 500px) 
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.img {
+    width: auto;
+    height: 200px;
+    flex-wrap: wrap;
+    z-index: 1px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: lightsteelblue;
+    text-align: center;
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav {
+    justify-content: center;
+    text-align: center;
+    font-size:large;
+    display: flex;
+    background-color: lightsteelblue;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+nav a {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+p {
+    font-size: large;
+}
+
+
+.div2 {
+    border: solid 2px;
+    padding: 5px 2px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+img {
+    width: 200;
+    height: auto;
+    z-index: 1px;
+    align-items: center;
+    
+}
+
+footer {
+    border: solid;
+    text-align: center;
+}
+
+
+
+
+  
